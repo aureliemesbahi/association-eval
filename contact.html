@@ -26,7 +26,47 @@
             </ul>
         </div>
     </nav>
-    
+
+   
+        <h2>Vous souhaitez nous contacter?</h2>
+
+        <form class="contactform" method="post" action="#">
+            <div class="objet">
+                <label for="Object">Objet de votre message</label>
+                <select id="msgobjet">
+                    <option value="info" selected>Demande d'information</option>
+                    <option value="inscription" >Inscription à un évènement</option>
+                    <option value="don">Organiser un don matériel</option>
+                    <option value="autre">Autre motif</option>
+                </select>
+            </div>
+            <div class="name">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="user_name" required>
+            </div>
+            <div class="email">
+                <label for="mail">e-mail :</label>
+                <input type="email" id="mail" name="user_mail" required>
+            </div>
+            <div class="text">
+                <label for="msg">Message :</label>
+                <textarea id="msg" name="user_message" rows=10></textarea>
+            </div>
+        </form>
+
+    <section>
+        <p>Nous sommes également joignables par téléphone au</p>
+                <a href="tel:0600000000">06 00 00 00 00</a>
+                <p>nos bureaux sont ouverts<br/>
+                les mercredi et samedi<br/>
+                de 08h à 16h<br/>
+                de 08h à 12h<br/>
+                à l'adresse suivante:<br/>
+                </p>
+                <address>7 Rue de la laine<br/>
+                99 999 Mouton</address>
+    </section>
+
     <footer>
         <img
         class="fb"
