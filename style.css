@@ -66,6 +66,10 @@ footer>a{
     grid-area: ml;
 }
 
+h2{
+    text-align: center;
+}
+
 /* Mise en place burger menu pour version mobile*/
 
 nav{
@@ -121,3 +125,42 @@ ul.menu{
 }
 
 /*formatage page d'Accueil*/
+
+div.allsetion{
+    display:grid;
+    grid-template-columns: 90vw;
+    grid-template-rows: repeat(4,auto);
+    grid-template-areas: 
+    "presentation"
+    "action"
+    "aide"
+    "contact";
+    padding:10px;
+}
+
+section.presentation{
+    grid-area: presentation;
+}
+
+section.action{
+    grid-area: action;
+}
+
+section.aide{
+    grid-area: aide;
+}
+
+section.contact{
+    grid-area: contact;
+    text-align: center;
+}
+
+section{
+    padding: 20px;
+    text-align:justify;
+}
+
+section>img{
+    border-radius: 50% 20% / 10% 40%;
+}
+
