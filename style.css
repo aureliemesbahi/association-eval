@@ -1,0 +1,68 @@
+/*formatage des éléments communs à toutes les pages*/
+
+body{
+    width: 100vw%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #420039;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    width: 100vw;
+    height: auto;
+    background-color: #f8dcdc;
+}
+
+footer{
+    width: 100vw;
+    height: auto;
+    background-color: #f8dcdc;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 75px 1fr 1fr 1fr;
+    grid-template-areas:
+    "facebook instagram whatsapp"
+    "Adresse Adresse Adresse"
+    "ml ml ml"
+    "copyright  copyright copyright";
+    justify-content: center;
+    align-items: center;
+}
+
+.fb{
+    grid-area: facebook;
+}
+
+.ig{
+    grid-area: instagram;
+}
+
+.wh{
+    grid-area: whatsapp;
+}
+
+footer>address{
+    grid-area: Adresse;
+
+}
+
+footer>p{
+    grid-area: copyright;
+}
+
+footer>a{
+    grid-area: ml;
+}
+
