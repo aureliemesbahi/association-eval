@@ -279,6 +279,30 @@ div.text{
     justify-content: center;
 }
 
+/*Mise en forme des liens*/
+
+a{
+    text-decoration: none;
+    color: #420039;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #440239;
+    font-weight: bolder;
+}
+
+a:active{
+    text-decoration: none;
+    color: #440239;
+    font-weight: bolder;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #f8dcdc;
+    font-weight: bolder;
+}
 
 
 
