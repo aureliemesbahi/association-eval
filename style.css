@@ -110,7 +110,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
 }
 
 li>a{
@@ -223,4 +223,64 @@ section.card>div.footercard{
    align-items: center;
    border-top: solid #240039;
 }
+
+/*Mise en forme du Formulaire de contact*/
+
+form{
+    width: 65vw;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid 3px;
+    border-color: #420039;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    color: #240039;
+    box-shadow: 10px 5px 10px #24003938;
+    background-color: #f8dcdc;
+}
+
+select{
+    color: #240039;
+    background-color: #f8dcdc, white;
+    
+}
+
+div.objet{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2,auto);
+    align-items: center;
+    justify-content: center;
+}
+
+div.name{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2,auto);
+    align-items: center;
+    justify-content: center;
+}
+
+div.email{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2,auto);
+    align-items: center;
+    justify-content: center;
+}
+
+div.text{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2,auto);
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
 
