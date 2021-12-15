@@ -300,11 +300,12 @@ a:active{
 
 a:visited{
     text-decoration: none;
-    color: #f8dcdc;
+    color: #440239;
     font-weight: bolder;
 }
 
-
-
+hr{
+    width: 90vw;
+}
 
 
