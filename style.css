@@ -1,7 +1,7 @@
 /*formatage des éléments communs à toutes les pages*/
 
 body{
-    width: 100vw%;
+    width: 100vw;
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
     color: #420039;
@@ -9,6 +9,11 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+article{
+    padding-right: 20px;
+    padding-left:20px;
 }
 
 img{
@@ -26,7 +31,7 @@ header{
 
 @media screen and (min-width:800px) {
    
-    header>img{
+    header>a>img{
         width: 50%;
         height: auto;
         display: flex;
@@ -78,6 +83,7 @@ footer{
 }
 
 .ig{
+
     grid-area: instagram;
 }
 
@@ -173,6 +179,7 @@ ul.menu{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        border-bottom: solid 1px #240039;
     }
 
 }
@@ -244,6 +251,7 @@ section>article{
     display: grid;
     justify-self: center;
     align-self: center;
+
 }
 
 hr{
@@ -422,18 +430,6 @@ a:visited{
 
 hr{
     width: 90vw;
-}
-
-@media screen and (min-width:800px) {
-   
-  header>img{
-      width: 50%;
-      height: auto;
-      display: flex;
-      justify-self: center;
-      align-self:flex-start
-  }    
-
 }
 
 /*Mise en forme desktop - Event & nous soutenir"*/
