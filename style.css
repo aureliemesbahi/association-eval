@@ -29,7 +29,7 @@ header{
     background-color: #f8dcdc;
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:790px) {
    
     header>a>img{
         width: 50%;
@@ -61,7 +61,7 @@ footer{
 
 /*Footer version desktop*/
 
-@media screen and (min-width:800px){
+@media screen and (min-width:790px){
 footer{
     width: 100vw;
     height: auto;
@@ -167,7 +167,7 @@ ul.menu{
 }
 /*Mise en forme nav desktop*/
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:790px) {
     
     .menu-toggle{
         display: none;
@@ -199,7 +199,7 @@ div.allsetion{
     padding:10px;
 }
 
-@media  screen and (min-width:800px) {
+@media  screen and (min-width:790px) {
 div.allsetion{
     display:grid;
     grid-template-columns: 70vw;
@@ -306,7 +306,7 @@ section.card{
 
 /*mise en forme accueil desktop*/
 
-@media  screen and (min-width:800px){
+@media  screen and (min-width:790px){
 
 }
 
@@ -434,7 +434,7 @@ hr{
 
 /*Mise en forme desktop - Event & nous soutenir"*/
 
-@media screen and (min-width:800px){
+@media screen and (min-width:790px){
     div.autrepage{
     width:70vw;
     display: grid;
